@@ -1,9 +1,13 @@
 #include<stdio.h>
+//#include<a.h>
 void main()
 {
    char x='a';
-   printf("please input the sentence");
-  while(x!=NULL)    
+   printf("please input the sentence\n");
+//   int a=CONVERT;
+//   printf("%c",a);  
+  #ifdef CONVERT  
+while(x!=NULL)    
   { scanf("%c",&x);  
    if(x>='A'&&x<='Z')
      x=x+32;
@@ -13,7 +17,7 @@ void main()
 
 
 
-
   }
+  #endif 
 }
-//hello        
+        
